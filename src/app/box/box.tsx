@@ -8,7 +8,7 @@ interface BoxProps {
 
 const Box = ({ children, className = "", ...props }: BoxProps) => {
   return (
-    <div className='border-red-400 outline-4 border-2 w-20'>
+    <div className='border-white outline-1 border-2 w-20 rounded-lg'>
       <div className={`box ${className}`} {...props}>
         {children}
       </div>

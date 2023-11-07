@@ -4,10 +4,15 @@ import Box from "./box/box";
 
 export default function Home() {
   return (
-    <div className=''>
-      <Box>
-        <p>This is some text!</p>
-      </Box>
+    <div>
+      <div className='grid grid-flow-col place-items-center'>
+        <Box>
+          <p>This is some text!</p>
+        </Box>
+        <Box className='bg-blue-500'>
+          <p>This is some text!</p>
+        </Box>
+      </div>
     </div>
   );
 }
